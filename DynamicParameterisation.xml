@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SalesforceSuite" verbose="2"> 
+<test name="LegalEntityTest" thread-count="5">
+<parameter name="url" value="https://login.salesforce.com/"/>
+        <parameter name="username" value="darundk77861@agentforce.com"/>
+        <parameter name="password" value="123qwe123qwe"/>
+        <classes>
+            <class name="week6day1Assignment.DynamicParameterization"/>
+        </classes>  
+</test>
+</suite>
